@@ -8,7 +8,7 @@ import reviewRoutes from './routes/review.js';
 import authRoutes from './routes/auth.js';
 
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['http://localhost:5173', 'https://rococo-bavarois-bca00b.netlify.app'],
     methods: ['GET', 'POST', 'PATCH', 'DELETE']
 }));
 app.use(express.json());
